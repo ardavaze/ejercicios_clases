@@ -7,5 +7,4 @@ int main(void) {
 	cout << "Hola danny";
 
 
-
 }
