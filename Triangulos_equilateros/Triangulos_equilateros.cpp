@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 int main(void){
-	float l1, l2, l3, l, a,result;
+	float l1, l2, l3, l, a, s, result;
 	short caso=1;
 	bool val_lados=0;
 	while (val_lados==0) {
@@ -14,6 +14,8 @@ int main(void){
 		cin >> l2;
 		cout << "Ingrese el tercer lado del triangulo\n";
 		cin >> l3;
+		if ((l2 < l1 + l3) & (l2 > abs(l1 - l3))) val_lados = 1;
+		else cout << "El triángulo que ha descrito no existe porfavor ";
 		val_lados = ((l2 < l1 + l3) & (l2 > abs(l1 - l3))) ? 1:0;
 	}
 	if (l1 == l2) {
@@ -38,17 +40,17 @@ int main(void){
 	}
 	switch (caso) {
 	case 1:
-		float s = (l1 + l2 + l3) / 2;
+		s = (l1 + l2 + l3) / 2;
 		result = sqrt(s * (s - l1) * (s - l2) * (s - l3));
-		cout << "El tipo de triangulo que ha ingresado es escaleno/n" << "El área del triángulo es " << result;
+		cout << "El tipo de triangulo que ha ingresado es escaleno\n" << "El área del triángulo es " << result;
 		break;
 	case 2:
 		result = (a * sqrt((l*l) - (a*a) / 4))/2;
-		cout << "El tipo de triangulo que ha ingresado es isóceles/n" << "El área del triángulo es " << result;
+		cout << "El tipo de triangulo que ha ingresado es isóceles\n" << "El área del triángulo es " << result;
 		break;
 	default:
 		result = (sqrt(3) / 4) * l * l;
-		cout << "El tipo de triangulo que ha ingresado es equilatero/n" << "El área del triángulo es " << result;
+		cout << "El tipo de triangulo que ha ingresado es equilatero\n" << "El área del triángulo es " << result;
 		break;
 	}
 	

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ej_1", "ej_1\ej_1.vcxproj", "{63AF4B74-A96C-4C34-A3E7-4606936D0584}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triangulos_equilateros", "Triangulos_equilateros\Triangulos_equilateros.vcxproj", "{B99B370F-7015-4578-A2EC-9E0C0B4EC24E}"
 EndProject
 Global
@@ -15,14 +13,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63AF4B74-A96C-4C34-A3E7-4606936D0584}.Debug|x64.ActiveCfg = Debug|x64
-		{63AF4B74-A96C-4C34-A3E7-4606936D0584}.Debug|x64.Build.0 = Debug|x64
-		{63AF4B74-A96C-4C34-A3E7-4606936D0584}.Debug|x86.ActiveCfg = Debug|Win32
-		{63AF4B74-A96C-4C34-A3E7-4606936D0584}.Debug|x86.Build.0 = Debug|Win32
-		{63AF4B74-A96C-4C34-A3E7-4606936D0584}.Release|x64.ActiveCfg = Release|x64
-		{63AF4B74-A96C-4C34-A3E7-4606936D0584}.Release|x64.Build.0 = Release|x64
-		{63AF4B74-A96C-4C34-A3E7-4606936D0584}.Release|x86.ActiveCfg = Release|Win32
-		{63AF4B74-A96C-4C34-A3E7-4606936D0584}.Release|x86.Build.0 = Release|Win32
 		{B99B370F-7015-4578-A2EC-9E0C0B4EC24E}.Debug|x64.ActiveCfg = Debug|x64
 		{B99B370F-7015-4578-A2EC-9E0C0B4EC24E}.Debug|x64.Build.0 = Debug|x64
 		{B99B370F-7015-4578-A2EC-9E0C0B4EC24E}.Debug|x86.ActiveCfg = Debug|Win32
